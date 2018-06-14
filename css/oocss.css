@@ -1,43 +1,59 @@
+/* Created classes to use spacing and margins as objects than
+directly applying them on class elements in styles.css file */
+
+/* MARGINS */
 .mts { margin-top: .5em; }
 .mtm { margin-top: 1em; }
 .mtl { margin-top: 2em; }
 .mtxl { margin-top: 3em; }
+
+.mls { margin-left: .5em; }
+.mlm { margin-left: 1em; }
+.mll { margin-left: 2em; }
+.mlxl { margin-left: 3em; }
+
+.mrs { margin-right: .5em; }
+.mrm { margin-right: 1em; }
+.mrl { margin-right: 2em; }
+.mrxl { margin-right: 3em; }
 
 .mbs { margin-bottom: .5em; }
 .mbm { margin-bottom: 1em; }
 .mbl { margin-bottom: 2em; }
 .mbxl { margin-bottom: 3em; }
 
-.mxs {
-  margin-top: .5em;
-  margin-bottom: .5em;
-}
-.mxm {
-  margin-top: 1em;
-  margin-bottom: 1em;
-}
-.mxl {
-  margin-top: 2em;
-  margin-bottom: 2em;
-}
-.mxxl {
-  margin-top: 8em;
-  margin-bottom: 8em;
-}
+.mxs { margin-top: .5em; margin-bottom: .5em; }
+.mxm { margin-top: 1em; margin-bottom: 1em; }
+.mxl { margin-top: 2em; margin-bottom: 2em; }
+.mxxl { margin-top: 8em; margin-bottom: 8em; }
 
-.mys {
-  margin-left: .5em;
-  margin-right: .5em;
-}
-.mym {
-  margin-left: 1em;
-  margin-right: 1em;
-}
-.myl {
-  margin-left: 2em;
-  margin-right: 2em;
-}
-.myxl {
-  margin-left: 3em;
-  margin-right: 3em;
-}
+.mys { margin-left: .5em; margin-right: .5em; }
+.mym { margin-left: 1em; margin-right: 1em; }
+.myl { margin-left: 2em; margin-right: 2em; }
+.myxl { margin-left: 3em; margin-right: 3em; }
+
+/* PADDINGS */
+.pts { padding-top: .5em; }
+.ptm { padding-top: 1em; }
+.ptl { padding-top: 2em; }
+.ptxl { padding-top: 3em; }
+
+.pbs { padding-bottom: .5em; }
+.pbm { padding-bottom: 1em; }
+.pbl { padding-bottom: 2em; }
+.pbxl { padding-bottom: 3em; }
+
+.pxs { padding-top: .5em; padding-bottom: .5em; }
+.pxm { padding-top: 1em; padding-bottom: 1em; }
+.pxl { padding-top: 2em; padding-bottom: 2em; }
+.pxxl { padding-top: 8em; padding-bottom: 8em; }
+
+.pys { padding-left: .5em; padding-right: .5em; }
+.pym { padding-left: 1em; padding-right: 1em; }
+.pyl { padding-left: 2em; padding-right: 2em; }
+.pyxl { padding-left: 3em; padding-right: 3em; }
+
+.pas { padding: .5em; }
+.pam { padding: 1em; }
+.pal { padding: 2em; }
+.paxl { padding: 3em; }
