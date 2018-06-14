@@ -1,0 +1,43 @@
+.mts { margin-top: .5em; }
+.mtm { margin-top: 1em; }
+.mtl { margin-top: 2em; }
+.mtxl { margin-top: 3em; }
+
+.mbs { margin-bottom: .5em; }
+.mbm { margin-bottom: 1em; }
+.mbl { margin-bottom: 2em; }
+.mbxl { margin-bottom: 3em; }
+
+.mxs {
+  margin-top: .5em;
+  margin-bottom: .5em;
+}
+.mxm {
+  margin-top: 1em;
+  margin-bottom: 1em;
+}
+.mxl {
+  margin-top: 2em;
+  margin-bottom: 2em;
+}
+.mxxl {
+  margin-top: 8em;
+  margin-bottom: 8em;
+}
+
+.mys {
+  margin-left: .5em;
+  margin-right: .5em;
+}
+.mym {
+  margin-left: 1em;
+  margin-right: 1em;
+}
+.myl {
+  margin-left: 2em;
+  margin-right: 2em;
+}
+.myxl {
+  margin-left: 3em;
+  margin-right: 3em;
+}
