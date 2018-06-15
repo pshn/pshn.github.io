@@ -46,7 +46,7 @@ p {
 }
 
 /* TEXT COLORS */
-.highlight-grey { color: #888888;}
+.highlight-grey { color: #888;}
 
 /* IMAGE */
 img {
@@ -57,7 +57,7 @@ img {
 /* NAVBAR */
 #navbar {
   overflow: hidden;
-  background-color: #FFF;
+  background-color: #fff;
   position: fixed;
   top: 0;
   width: 100%;
