@@ -37,7 +37,7 @@ h4 {
 }
 
 h6 {
-  font-family: 'OPen Sans', sans-serif;
+  font-family: 'Open Sans', sans-serif;
   font-size: .8em;
 }
 
@@ -52,6 +52,13 @@ p {
 img {
   width: 100%;
   margin-bottom: 14px;
+}
+
+img.logo {
+  width: 40px;
+  display: inherit;
+  border-radius: 100%;
+  border: solid 2px #333;
 }
 
 /* NAVBAR */
@@ -73,4 +80,9 @@ img {
 
 footer {
   background-color: #000;
+}
+
+footer .logo {
+  width: 40px;
+  display: inline;
 }
