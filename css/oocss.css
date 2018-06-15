@@ -32,6 +32,12 @@ directly applying them on class elements in styles.css file */
 .myl { margin-left: 2em; margin-right: 2em; }
 .myxl { margin-left: 3em; margin-right: 3em; }
 
+.mas { margin: .5em }
+.mam { margin: 1em }
+.mal { margin: 2em }
+.maxl { margin: 8em }
+
+
 /* PADDINGS */
 .pts { padding-top: .5em; }
 .ptm { padding-top: 1em; }

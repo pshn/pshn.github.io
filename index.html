@@ -7,63 +7,66 @@
     <link rel="stylesheet" type="text/css" href="css/reset.css">
     <link rel="stylesheet" type="text/css" href="css/styles.css">
     <!-- <link rel="stylesheet" type="text/css" href="css/queries.css"> -->
-    <link rel="stylesheet" media="screen and (max-width: 520px)" href="css/responsive-1-mobile.css">
-    <link rel="stylesheet" media="screen and (min-width: 800px)" href="css/responsive-2-tablet.css">
+    <link rel="stylesheet" media="screen and (min-width: 400px)" href="css/responsive-1-mobile.css">
+    <link rel="stylesheet" media="screen and (min-width: 720px)" href="css/responsive-2-tablet.css">
     <link rel="stylesheet" media="screen and (min-width: 1200px)" href="css/responsive-3-desktop.css">
     <link rel="stylesheet" type="text/css" href="css/oocss.css">
+    <link href="https://fonts.googleapis.com/css?family=Neuton|Open+Sans" rel="stylesheet">
   </head>
   <body>
-      <nav class="navbar">
-        <a href="#">About</a>
-        <a href="#">Projects</a>
-        <a href="#">Contact</a>
+      <nav id="navbar">
+        <a href="#about">About</a>
+        <a href="#projects">Projects</a>
+        <a href="#contacts">Contact</a>
       </nav>
       <div class="mxxl myxl">
         <h1 class="mbxl"><span class="mrs">Pshn</span> | <span class="highlight-grey mls">Product Designer</span></h1>
-        <h2>Hello! I create digital experiences for people. <span class="highlight-grey">I am learning front-end development to build dynamic web applications.</span></h2>
+        <h2>Hello! I create digital experiences for people.<br><span class="highlight-grey">I am learning front-end development to build dynamic web applications.</span></h2>
       </div>
-      <main class="container">
-        <section class="paxl">
-          <div class="mbxl">
+      <main id="projects">
+        <!-- <section class="paxl"> -->
+        <section class="container">
+          <!-- <div class="mbxl one"> -->
+          <div class="pix one mbxl">
             <h4 class="mbs">Pixel Art Maker</h4>
             <a href="#"><img src="css/img/katarzyna-grabowska-397448-unsplash.jpg"></a>
           </div>
-          <div class="mbxl">
+          <div class="pix two mbxl">
             <h4 class="mbs">Memory Game</h4>
             <a href="#"><img src="css/img/xenia-bogarova-418750-unsplash.jpg"></a>
           </div>
-          <div class="mbxl">
+          <div class="pix three mbxl">
             <h4 class="mbs">Class Arcade Game</h4>
             <a href="#"><img src="css/img/zeno-aras-417630-unsplash.jpg"></a>
           </div>
-          <div class="mbxl">
+          <div class="pix four mbxl">
             <h4 class="mbs">Feed Reader Testing</h4>
             <a href="#"><img src="css/img/brina-blum-114391-unsplash.jpg"></a>
           </div>
-          <div class="mbxl">
-            <h4 class="mbs">Restaurant Reviews App</h4>
-            <a href="#"><img src="css/img/eaters-collective-219711-unsplash.jpg"></a>
+          <div class="pix five mbxl">
+            <h4 class="mbs">Restaurant Reviews</h4>
+            <a href="#"><img src="css/img/chinh-le-duc-288029-unsplash.jpg"></a>
           </div>
-          <div class="mbxl">
-            <h4 class="mbs">MyReads: A Book Tracking App</h4>
+          <div class="pix six mbxl">
+            <h4 class="mbs">MyReads: A Book Tracking</h4>
             <a href="#"><img src="css/img/hanna-pedroza-151438-unsplash.jpg"></a>
           </div>
-          <div>
+          <div class="pix seven mbxl">
             <h4 class="mbs">Neighborhood Map (React)</h4>
             <a href="#"><img src="css/img/toa-heftiba-250942-unsplash.jpg"></a>
           </div>
         </section>
         <section class="paxl">
-          <h3 class="highlight-grey mbm">About</h3>
-          <p>I'm a designer learning how to build applications in front-end development. On the side, I like to do handlettering and look through dessert images on Pinterest.</p>
+          <h3 id="about" class="highlight-grey mbm">About</h3>
+          <p>I'm a designer learning how to build applications in front-end development.<br>On the side, I like to do handlettering and look through dessert images on Pinterest.</p>
         </section>
         <section class="paxl">
-          <h3 class="highlight-grey mbm">Contact</h3>
+          <h3 id="contact" class="highlight-grey mbm">Contact</h3>
           <p>pshn0530@gmail.com</p>
         </section>
       </main>
-      <footer class="mbxl">
-        <h6 class="highlight-grey"><span class="mrs">Built in 2018 </span>| <span class="mls">pshn</span></h6>
+      <footer class="paxl">
+        <h6 class="highlight-grey">Built in 2018 by pshn</h6>
       </footer>
   </body>
 </html>

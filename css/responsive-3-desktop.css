@@ -1,5 +1,38 @@
-@media screen and (min-width: 1200px) {
-  body {
-    background-color: pink;
-  }
+/* For screens 1200px and more */
+
+/* body {
+  background-color: pink;
+} */
+
+.one, .two, .six, .seven {
+  width: 50%;
+}
+
+.three, .four, .five {
+  width: 33.3334%;
+}
+
+h4 {
+  padding: 6px 10px;
+  background-color: #FFFFFF;
+  box-shadow: 6px 6px red;
+  position: relative;
+  top: 50%;
+  display: inline-block;
+  font-size: 2em;
+  opacity: 0;
+}
+
+.pix {
+  webkit-filter: brightness(1); /* Chrome, Safari, Opera */
+  filter: brightness(1);
+}
+.pix:hover {
+  webkit-filter: brightness(50%); /* Chrome, Safari, Opera */
+  filter: brightness(50%);
+}
+
+.pix:hover h4 {
+  opacity: 1;
+  filter: brightness(1);
 }
